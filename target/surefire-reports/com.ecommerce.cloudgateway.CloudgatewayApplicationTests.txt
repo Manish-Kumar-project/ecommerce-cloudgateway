@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: com.ecommerce.cloudgateway.CloudgatewayApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.095 s <<< FAILURE! - in com.ecommerce.cloudgateway.CloudgatewayApplicationTests
+contextLoads  Time elapsed: 0.013 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.yaml.snakeyaml.parser.ParserException: 
+while parsing a block mapping
+ in 'reader', line 7, column 11:
+            - id: order-service
+              ^
+expected <block end>, but found '-'
+ in 'reader', line 11, column 11:
+              - id: product-service
+              ^
+
+
